@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Version>1.2.3</Version>
+    <Nullable>enable</Nullable>
+    <InformationalVersion>2023-11-23 19:02 GMT+11</InformationalVersion>
+    <Authors>Greg Keogh</Authors>
+    <Company>Orthogonal Programming</Company>
+    <Product>Orthogonal Test Library</Product>
+    <Description>This is testing how to make and use NuGetpackages in GitHub.</Description>
+    <Copyright>Copyright in the observable Universe.</Copyright>
+    <PackageLicenseExpression>AFL-3.0</PackageLicenseExpression>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageTags>orthogonal</PackageTags>
+    <PackageReleaseNotes>Initial commit.</PackageReleaseNotes>
+    <PackageOutputPath>\\CONDOR\shared\Nuget\orthogonal</PackageOutputPath>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageIcon>MockGitLibrary.png</PackageIcon>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="MockGitLibrary.png" Pack="True" PackagePath="\"/>
+    <None Include="readme.md" Pack="True" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>
